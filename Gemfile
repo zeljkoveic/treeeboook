@@ -7,6 +7,7 @@ gem 'rails', '4.1.4'
 gem 'sqlite3'
 
 gem 'devise'
+gem 'simple_form'
 
 
 
