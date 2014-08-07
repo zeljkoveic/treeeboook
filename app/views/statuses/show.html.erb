@@ -1,14 +1,21 @@
 <p id="notice"><%= notice %></p>
+<div class="well">
 
-<p>
-  <strong>Name:</strong>
-  <%= @status.user.full_name %>
-</p>
+	<fieldset>
+    	<legend>Status content</legend>
+	</fieldset>
 
-<p>
-  <strong>Content:</strong>
-  <%= @status.content %>
-</p>
+	<p>
+  		<strong>Name:</strong><br />
+  		<%= @status.user.full_name %>
+	</p>
 
-<%= link_to 'Edit', edit_status_path(@status) %> |
-<%= link_to 'Back', statuses_path %>
+	<p>
+  		<strong>Content:</strong><br />
+  		<%= @status.content %>
+	</p>
+</div>
+
+<%= link_to 'Back', statuses_path, :class => 'btn btn-default'  %>
+<%= link_to 'Edit', edit_status_path(@status), :class => 'btn btn-primary' %>   
+
