@@ -12,7 +12,7 @@
 		</div>
 	
 		<div class="col-md-11">
-  			<strong><%= status.user.full_name %></strong>
+  			<strong><%= link_to status.user.full_name, profile_path(status.user.profile_name) %></strong>
 
     			<p><%= status.content %></p>
     		<div class="meta">
