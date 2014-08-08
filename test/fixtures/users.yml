@@ -3,3 +3,9 @@ zeljko:
   last_name: "Veic"
   profile_name: "zeljkoveic"
   email: "zeljko@thehyperactive.com"
+
+jim:
+  first_name: "jim"
+  last_name: "jimens"
+  profile_name: "jimjim"
+  email: "jim@thehyperactive.com"
