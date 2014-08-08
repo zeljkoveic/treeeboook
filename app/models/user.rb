@@ -13,7 +13,7 @@ class User < ActiveRecord::Base
 	has_many :statuses
 
 	def full_name
-		first_name + " " + last_name
+		first_name.strip + " " + last_name.strip
 	end
 
 	def gravatar_url
